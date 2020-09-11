@@ -1,5 +1,6 @@
 # MSc-Project-Code
-This repository contains the source code for my MSc Project on "Scalable Inference for Generative Models using Quasi-Monte Carlo".
+This repository contains the source code for my MSc Project on "Scalable Inference for Generative Models using Quasi-Monte Carlo". It is 
+optimised for the use with [Google Colab](https://colab.research.google.com/) and mounts the Google drive to load required other notebooks located in the default folder for Colab notebooks. For local use, file paths have to be adjusted where indicated.
 
 ## Content of sub-folders:
 
@@ -7,8 +8,8 @@ This repository contains the source code for my MSc Project on "Scalable Inferen
 This folder contains a Python notebook generating all other illustrations for MC, QMC, and RQMC.
 
 ### Helper functions
-This folder comprises two Python notebooks with the necessary functions for optimisation ("utils.ipynb") and plotting of results ("Plot_fcts.ipynb") 
-for all analysed models. Therefore, both notebooks are loaded in all other notebooks listed below.
+This folder comprises two Python notebooks with the necessary functions to obtain results for optimisation/convergence ("utils.ipynb") and plots ("Plot_fcts.ipynb") 
+for all analysed models. Therefore, both notebooks are loaded in all other notebooks listed below so that their file paths might need to be adjusted where indicated.
 
 ### Gaussian location model
 In this folder, all results for the Gaussian location model can be found:<br>
